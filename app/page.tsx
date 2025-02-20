@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import "./global.css"
 
 export default function Home() {
-  const [message, setMessage] = useState([])
+  const [message, setMessage] = useState()
 
   useEffect(() => {
     const fetchData = async () => {
